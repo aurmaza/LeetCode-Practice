@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import taskList from './components/TaskList/tasklist';
+import TaskList from './components/TaskList/tasklist';
 function App() {
   return (
    <div className="App">
@@ -8,7 +8,7 @@ function App() {
     <div>
       <input type="text" placeholder ="Add a task" />
       <button>Add</button>
-      <taskList></taskList>
+      <TaskList></TaskList>
     </div>
    </div>
   );

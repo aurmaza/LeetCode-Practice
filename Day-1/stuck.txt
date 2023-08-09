@@ -1,0 +1,1 @@
+ALWAYS capitalize react component names!!!!! otherwise it will think its a html tag like <img> or <div></div>

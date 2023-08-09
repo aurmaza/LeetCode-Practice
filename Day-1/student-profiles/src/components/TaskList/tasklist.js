@@ -1,23 +1,26 @@
-const today = new Date();
+
 const testTask = {
-    taskName: 'Do Hoemwork',
+    taskASsigned: 'Alex',
     taskDescription: 'Finish Math Homework'
 
 }
-export default function taskList(){
+export default function TaskList(){
 
     return(
      
-<></>
+
+<div>{formatTask(testTask, true)}</div>
+
+
     );
 };
+function formatTask(task, taskComplete){
 
-//Returns the day of the week that is today.
-function formatDate(date){
-    return new Intl.DateTimeFormat(
-        'en-us',
-        {weekday:'long'}
-    ).format(date)
+    if(taskComplete === true){
+       return(<li>The {task.taskDescription} is complete </li>);
+    }
+    return(<li>The {task.taskDescription} is not complete</li>);
+    
 }
 
 

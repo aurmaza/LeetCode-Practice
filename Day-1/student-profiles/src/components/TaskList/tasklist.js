@@ -5,11 +5,14 @@ const testTask = {
 
 }
 export default function TaskList(){
-
+    var temp = false;
     return(
-     
+     <>
 
-<div>{formatTask(testTask, true)}</div>
+     <div>{formatTask(testTask, temp)}</div>
+     </>
+
+
 
 
     );

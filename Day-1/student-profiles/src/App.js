@@ -8,7 +8,9 @@ function App() {
     <div>
       <input type="text" placeholder ="Add a task" />
       <button>Add</button>
-      <TaskList></TaskList>
+      <TaskList>
+        
+      </TaskList>
     </div>
    </div>
   );

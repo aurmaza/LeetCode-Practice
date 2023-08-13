@@ -1,1 +1,6 @@
 ALWAYS capitalize react component names!!!!! otherwise it will think its a html tag like <img> or <div></div>
+
+React components under the hood are actually just javascript pojos
+
+You can nest other jsx componenets in a component 
+Must always signify the end of the componenet with />

@@ -4,3 +4,30 @@ React components under the hood are actually just javascript pojos
 
 You can nest other jsx componenets in a component 
 Must always signify the end of the componenet with />
+--
+8/12/2023
+
+JSX syntax is defined in React
+
+A js object is returned when you console log a componenet  
+    which are react elements that describe 
+    what react sould eventually add to the
+    DOM For use
+
+All JSX must be nested under a single parent elements
+can wrap JSX is <> </> which is a Fragment
+
+Delcarative vs Imperative
+    Delcarative: tell program what to acomlplish and
+    it would know what to Do and how to handle the 
+    details
+        Make a pbj: tell a friend to make a pbj and u 
+        assume they would know how to make it 
+    Imperative: we need to tell the computer step by step what to document
+        Make a pbj: must tell your friend exactly how to make it
+
+to be composable?
+    you have small pieces that can be put together to
+    make something larger and greater than the individual
+    pieces
+====

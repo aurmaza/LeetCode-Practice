@@ -31,3 +31,13 @@ to be composable?
     make something larger and greater than the individual
     pieces
 ====
+Conventions to follow for components:
+    1. Capitalize the first letter of componeent
+    2. instead of calling the function with paren,
+warpa with < />
+
+Javascript imports are
+    CaSeSeNsItIvE
+
+Default extensions for imports is .js in js,
+    so you dont need to specify.

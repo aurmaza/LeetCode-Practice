@@ -58,3 +58,13 @@ to connect from phone do
   }
 in vite config
 ==
+
+
+.classname > li{
+
+}
+would only apply to dirdct children of .classname
+however
+.classname li{
+    applies to all li nested in .classname
+}

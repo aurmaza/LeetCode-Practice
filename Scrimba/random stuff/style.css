@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#navbar{
+    display:flex;
+    align-items: center;
+    background-color: #21222A;
+    padding:20px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-size: 25px;
+
+}
+
+
+#reactlogo{
+    width: 40px;
+}
+
+#reactc{
+    margin-left:auto;
+    color: white;
+}

@@ -41,3 +41,20 @@ Javascript imports are
 
 Default extensions for imports is .js in js,
     so you dont need to specify.
+
+==
+importnig things like images and css files
+ from relative paths
+are impotant especially when your code is bundled
+teaches bundler how to find the css and apply it to 
+certain parts of your react app.
+
+to connect from phone do 
+  server: {
+    // Set host to '0.0.0.0' to accept connections from outside
+    host: '0.0.0.0',
+    // You can also set the port if needed (default is 3000)
+    // port: 3000
+  }
+in vite config
+==

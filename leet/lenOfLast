@@ -1,0 +1,9 @@
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        temp = s.split(" ")
+        newtemp = list(filter(lambda x: len(x) >= 1, temp))
+        print(newtemp)
+        return len(newtemp[len(newtemp)-1])
+
+
+        

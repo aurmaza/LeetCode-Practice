@@ -29,3 +29,18 @@
 - One dictionaries are made for both strings
 - If the counts are disimlar from one array to the next
   return false
+
+
+**
+Merge2Lists
+For each list
+find if the value of that list1 is <= to the other
+if it is <=
+set temp.next to list1
+list1 = list1.next
+temp = list1
+if not 
+do same for list 2
+then check if list 1 and list 2 arent empty and set the tail
+to the one that isnt empty
+then return dummyHead.next

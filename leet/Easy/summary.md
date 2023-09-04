@@ -31,8 +31,8 @@
   return false
 
 
-**
-Merge2Lists
+
+**Merge List**
 For each list
 find if the value of that list1 is <= to the other
 if it is <=
@@ -44,3 +44,4 @@ do same for list 2
 then check if list 1 and list 2 arent empty and set the tail
 to the one that isnt empty
 then return dummyHead.next
+

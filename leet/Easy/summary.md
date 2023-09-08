@@ -44,3 +44,24 @@ do same for list 2
 then check if list 1 and list 2 arent empty and set the tail
 to the one that isnt empty
 then return dummyHead.next
+
+**Two Sum**
+Create a Dictionary
+Start the dictionary with 
+key: value of target-num[index] : index
+
+then, create a for loop
+
+in this loop
+first, find what is needed
+do 
+needed = target - num[i]
+
+if num[i] is in dictionary
+then its match for the target is the index of the key
+
+return dictionary[nums[i]], i
+
+else
+  nums[needed] = i
+restart looop

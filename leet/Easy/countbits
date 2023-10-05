@@ -1,0 +1,17 @@
+class Solution(object):
+    
+    def countBits(self, n):
+        """
+        :type n: int
+        :rtype: List[int]
+        """
+        res = []
+        for num in range(0, n + 1, 1):
+            binnum = bin(num).count('1')
+            
+            res.append(binnum)
+        return res
+
+            
+dumb way to do it ^
+

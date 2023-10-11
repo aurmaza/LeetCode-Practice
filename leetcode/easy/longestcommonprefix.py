@@ -12,7 +12,7 @@ class Solution(object):
             for s in strs:
                 
                 # If the index is equal to the length of the string 
-                #Means we will go out of bounds
+                #Means we will go out of bounds on string s
                 #Return
                 #Or if one of the strings doesnt match the first string 
                 #return

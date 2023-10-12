@@ -11,12 +11,14 @@ class Solution(object):
         l, r = 0, len(s) - 1
 
         while l < r:
-
+            # skips over spaces
             while l < r and not self.alphaNum(s[l]):
                 l+=1
+            # skips over space values
             while r > l and not self.alphaNum(s[r]):
                 r-=1
             print(l,r)
+            # Checks if letters match
             if s[l].lower() != s[r].lower():
                 return False
             l+=1

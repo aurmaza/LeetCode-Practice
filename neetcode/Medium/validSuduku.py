@@ -49,6 +49,10 @@ class Solution(object):
         :type board: List[List[str]]
         :rtype: bool
         """
+        # Uses only one set of double loops
+        # Boxes consists of a dictionary of sets that have keys (i//3, j//3) which represents the 9 squares 
+        # that must all have unique values
+        # so a set is created for those 9 squares and their indexes are found by (i//3, j//3)
         cols = collections.defaultdict(set)
         rows = collections.defaultdict(set)
         boxes = collections.defaultdict(set)

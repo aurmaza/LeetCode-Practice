@@ -1,0 +1,33 @@
+class Solution(object):
+    def longestConsecutive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        # union = {num:set() for num in nums}
+        
+        # for n in nums:
+        #     oneAbove = n + 1
+        #     oneBelow = n - 1
+           
+
+        #     if oneAbove in union:
+        #         union[n].add(oneAbove)
+        #         union[oneAbove].add(n)
+        #     if oneBelow in union:
+        #         union[n].add(oneBelow)
+        #         union[oneBelow].add(n)
+        # for item in list(union.keys()):
+        #     if len(union[item]) == 0:
+        #         union.pop(item)
+        numset = set(nums)
+        maxlen = 0
+        for num in numset:
+            if num - 1 not in numset:
+                curr = num
+                currlen = 1
+                while curr + 1 in numset:
+                    curr += 1
+                    currlen +=1
+                maxlen = max(maxlen, currlen)
+        return maxlen

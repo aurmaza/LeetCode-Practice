@@ -24,4 +24,15 @@ class Solution(object):
             if numNeeded in dic.keys():
                 return [dic[numNeeded],i]
             else:
-                dic[nums[i]] = i
+                dic[nums[i]] = 
+class Soluton(object):
+    def twoSum(self, nums, target):
+        dic = {}
+        dic[nums[0]] = 0
+        for i in range(1, len(nums)):
+            numNeeded = target - nums[i]
+            if numNeeded in dic
+                return [dic[numNeeded], i]
+            else:
+                dic[numNeeded] = i
+        

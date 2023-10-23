@@ -68,4 +68,22 @@ class Solution(object):
                 boxes[(i//3, j//3)].add(board[i][j])
         return True  
 
-        
+
+
+def isValidSudoku(self,board):
+    cols = collections.defaultdict(set)
+    rows = collections.defaultdict(set)
+    boxes = collections.defaultdict(set) #in location (i//3, j//3) 3x3 board
+    for i in range(9):
+        for j in range(9)
+            #Skip empty box
+            if board[i][j] == '.':
+                continue
+            if(board[i][j] in rows[i] or
+               board[i][j] in cols[j] or
+               board[i][j] in boxes[(i//3, j//3)]): return False
+            rows[i].add(board[i][j])
+            cols[j].add(board[i][j])
+            boxes[(i//3,j//3)].add(board[i][j])
+    return True
+

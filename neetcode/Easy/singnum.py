@@ -8,4 +8,5 @@ class Solution(object):
         for num in nums:
             # Bit manipulation
             res = num ^ res
+        
         return res

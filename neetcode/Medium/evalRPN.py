@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: int
         """
         stack = []
-        
+        #For each token t
         for t in tokens:
             if t.isdigit() or (t[0] == '-' and t[1:].isdigit()):
                 stack.append(int(t))

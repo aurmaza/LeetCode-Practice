@@ -10,9 +10,11 @@ class Solution(object):
         :type root: TreeNode
         :rtype: TreeNode
         """
+        # End of tree
         if root is None:
             return None
         
+        #oh iii
         tmp = root.left
         root.left = root.right
         root.right = tmp

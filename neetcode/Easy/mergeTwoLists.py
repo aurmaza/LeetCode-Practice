@@ -25,7 +25,4 @@ class Solution(object):
             temp.next = list1
         if list2:
             temp.next = list2
-
-
-        
         return dummyHead.next

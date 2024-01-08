@@ -11,3 +11,7 @@ class Solution:
                     
 
         return arr
+#Temporarily hold onto the highest value encountered thus far.
+#Compare the current element with this highest value:
+#If the current element exceeds the highest value, update the highest value to reflect this new maximum.
+#Then, replace the current element in the array with the previously held highest value.
